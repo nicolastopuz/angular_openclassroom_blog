@@ -1,0 +1,49 @@
+.global
+{
+	border: 2px solid black;
+	border-radius: 5px;
+	margin : 10px;
+	padding: 5px; 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 200px;
+}
+
+header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.plus
+{
+	background-color: green;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.moins
+{
+	background-color: red;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.buttons
+{
+	width:200px;
+	display: flex;
+	justify-content: space-around;
+}
+
+aside
+{
+	color: grey;
+	font-style: italic;
+}
+section
+{
+	margin-bottom: 20px;
+}

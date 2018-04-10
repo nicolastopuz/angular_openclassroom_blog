@@ -1,0 +1,11 @@
+<div *ngIf='post' [ngStyle]="{'background' : getColor()}" class="global">
+	<header>
+		<h3>{{post.title}}</h3>
+		<aside>{{post.date | date}}</aside>
+	</header>
+	<section>{{post.content}}</section>
+	<div class="buttons">
+		<button class='plus' (click)="positive()">Love it!<span *ngIf="post.plus"> ({{post.plus}})</span></button>
+		<button class='moins' (click)="negative()">Don't love it!<span *ngIf="post.minus"> ({{post.minus}})</span></button>
+	</div>
+</div>

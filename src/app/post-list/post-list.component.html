@@ -1,0 +1,7 @@
+<h2>Posts</h2>
+<div *ngFor='let post of posts' class="messages">
+	<div class='message'>
+		<app-post-list-item [post]='post'></app-post-list-item>
+	</div>
+</div>
+
